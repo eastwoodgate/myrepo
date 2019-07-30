@@ -1,0 +1,32 @@
+
+
+<html>
+  <head>
+    <title>The Gossip Project</title>
+  </head>
+  <body>
+    <h1>Bonjour à vous, si vous avez une histoire à nous raconter, n'hésitez pas. <br> Cliquez sur <a href="/gossips/new/">Crée ton propre potin</a>*</h1> (*8 euros 50 TTC)
+
+    <br>
+    <br>
+
+
+    <h1> Vos potins</h1>
+
+
+
+     <% gossips.each do |gossip| %>
+        <p>
+          
+          <a href = '/'><%= gossip.mystory %></a>
+        </p>
+      <% end %>
+
+  </body>
+
+
+
+
+
+</html>
+
